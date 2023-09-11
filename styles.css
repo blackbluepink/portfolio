@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+.nafay {
+    font-family: Abril Fatface;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url('26668 1.png');
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    color: #bababa;
+    display: inline;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+li:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+}
+
+h1 {
+    font-family: Archivo Black;
+    font-size: 15vh;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 4vh;
+    margin: 2vh;
+    
+}
+
+.hero-button {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+
+}
+
+
+  
+
+.hero-button:hover {
+    background-color: white; /* Green */
+    color: #040D12;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.hey {
+    font-size: 5vh;
+    margin-top: 15vh;
+
+}
+
+
+.hero {
+    display: flex;
+    margin: 0rem 5rem 0rem 5rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+    
+}
+
+body {
+    background-color: #040D12;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-image: url('26668 1.png');
+    color: #fff;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-graphic {
+    max-width: 40vw;
+    margin: 0;
+    float: right;
+    clear: right;
+}
+
+
+
+.header-graphic {
+    margin-bottom: 0vh;
+}
+
+
+h3 {
+    font-family: Archivo Black;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+
+
+h4 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3rem 7rem;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.second-box {
+    border: 2px solid;
+    padding: 2rem 0rem;
+    margin-top: 0rem;
+}
+
+.blue {
+    color: #3684FA;
+}
+
+.skills {
+
+    background-image: url('9312976 1.png');
+    padding: 5rem 0rem;
+}
+
+.skills-img {
+    max-width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.skills-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5rem;
+    padding: 10rem;
+    
+
+}
+
+.projects-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-align: center;
+    font-size: 4rem;
+    padding: 15rem;
+}
+
+.project-graphic {
+    max-width: 70vh;
+
+}
+
+.project {
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 5rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('5929791 1 (1).png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.project-yt {
+    -webkit-box-shadow: 0px -15px 58px -29px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -15px 58px -29px rgba(0,0,0,1);
+    box-shadow: 0px -15px 58px -29px rgba(0,0,0,1);
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('bg2608228 1.png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-python {
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('bg2608228 1.png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.udemy-work {
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('27303 1.png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.kool-work {
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('4975027 1.png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+
+
+.proj-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+}
+
+.proj-button:hover {
+    background-color: white; /* Green */
+    color: #040D12;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
