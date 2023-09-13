@@ -53,3 +53,4 @@ gsap.from('.contact-cta', {
     opacity: 0,
     duration: 1.5
 })
+

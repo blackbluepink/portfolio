@@ -66,8 +66,6 @@ h2 {
 }
 
 
-  
-
 .hero-button:hover {
     background-color: white; /* Green */
     color: #040D12;
@@ -227,7 +225,7 @@ h4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.project-python {
+.project-weather {
     position: sticky;
     top: 10vh;
     display: flex;
@@ -237,7 +235,7 @@ h4 {
     border-radius: 3rem;
     padding: 7rem 5rem;
     margin-bottom: 12rem;
-    background-image: url('bg2608228 1.png');
+    background-image: url('4944287 1.png');
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: auto;
 }
@@ -291,4 +289,49 @@ h4 {
     transition: 0.1s;
 }
 
+.phone {
+    display: none;
+}
 
+.last {
+    margin-top: 3rem;
+}
+
+.contact-btns {
+    display: flex;
+    align-items: center;
+    margin: 3rem 7rem;
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      display: none;
+    }
+    .phone {
+        display: flex;
+    }
+  }
+
+  

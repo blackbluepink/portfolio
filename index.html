@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles.css">
     <title>Nafay</title>
 </head>
+
+
 <body>
     <section class="bg">
     <header>
@@ -15,7 +17,7 @@
                     <li onClick="document.getElementById('about').scrollIntoView();">About</li>
                     <li onClick="document.getElementById('skill').scrollIntoView();">Skills</li>
                     <li onClick="document.getElementById('projects').scrollIntoView();">Projects</li>
-                    <li onClick="document.getElementById('about').scrollIntoView();">Work Experience</li>
+                    <li onClick="document.getElementById('work').scrollIntoView();">Work Experience</li>
             </ul>
             </div>
 
@@ -65,9 +67,9 @@
 
     </section>
 
-    <h1 class="skills-title">&lt; <span class="blue">My Skills</span> /&gt;</h1>
+    <h1 id="skill" class="skills-title">&lt; <span class="blue">My Skills</span> /&gt;</h1>
 
-    <div id="skill" class="skills">
+    <div  class="skills">
         
         <img class="skills-img  scroll-anim1" src="logos.png" alt="">
     </div>
@@ -80,7 +82,7 @@
             <div class="projects">
                 <div class="project">
                     <div class="project-text">
-                        <h3>Expenso,</h3> <br>
+                        <h3>Expense Tracker,</h3> <br>
                         <p>an expense tracker web app <br>
                             made with HTML, CSS, and <br>
                             JavaScript. I used the DOM <br>
@@ -89,9 +91,23 @@
                             code organization, and <br>
                             local storage for data <br>
                             persistence.</p>
-                        <button class="proj-button">&lt; Explore /&gt;</button>
+                            <a href="https://github.com/abdulnafay1/expense-tracker"><button class="proj-button">&lt; Explore /&gt;</button></a>
                     </div>
-                        <img class="project-graphic" src="Screenshot 2023-08-31 at 4.24 1.png" alt="">
+                        <img class="project-graphic" src="Screenshot 2023-09-12 at 7.03 2.png" alt="">
+                </div>
+
+                <div class="project-weather">
+                    <div class="project-text">
+                        <h3>Weather App,</h3> <br>
+                        <p>I made a weather app using <br>
+                           Python. I used the Openweathermap <br>
+                           api to fetch data (using the <br>
+                           Requests library) and print <br>
+                           fuction and string formatting <br>
+                           to display it.</p>
+                           <a href="https://github.com/abdulnafay1/weather-app"><button class="proj-button">&lt; Explore /&gt;</button></a>
+                    </div>
+                        <img class="project-graphic" src="weath.png" alt="">
                 </div>
 
                 <div class="project-yt">
@@ -103,7 +119,7 @@
                            share tutorials around 3D <br>
                            software like Blender and <br>
                            Unreal Engine 5.</p>
-                           <button class="proj-button">&lt; Explore /&gt;</button>
+                           <a href="https://www.youtube.com/@nafay3d"><button class="proj-button">&lt; Explore /&gt;</button></a>
                     </div>
                     <img class="project-graphic" src="Screenshot 2023-08-31 at 4.35 1.png" alt="">
                 </div>
@@ -114,7 +130,7 @@
     </section>
 
 
-    <section id="projects" class="project-section">
+    <section id="work" class="project-section">
         <div>
             <h1 class="projects-title">&lt; <span class="blue">Work Experience</span> /&gt;</h1>   
             <div class="projects">
@@ -127,7 +143,7 @@
                             <br>
                             - Taught Over 3000 <br>
                             Students.</p>
-                        <button class="proj-button">&lt; Explore /&gt;</button>
+                            <a href="https://www.udemy.com/user/nafay-sheikh/"><button class="proj-button">&lt; Explore /&gt;</button></a>
                     </div>
                         <img class="project-graphic" src="Screenshot 2023-08-31 at 4.46 1.png" alt="">
                 </div>
@@ -136,7 +152,7 @@
                     <div class="project-text">
                         <h3>Internship at Koolstories,</h3> <br>
                         <p>- Created videos and short <br> courses to teach students <br> 3D animation. <br> <br>- Worked for about 3 months.</p>
-                        <button class="proj-button">&lt; Explore /&gt;</button>
+                        <a href="https://www.koolstories.com/"><button class="proj-button">&lt; Explore /&gt;</button></a>
                     </div>
                         <img class="project-graphic" src="kool.png" alt="">
                 </div>
@@ -146,16 +162,26 @@
     </section>
 
     <div class="second-box">
-        <div class="center-box" class="css-typing">
-        <h4 >
-        &lt;<span class="blue">h1</span>&gt; Like what you see? <br>
-            Contact me on my Email or Instagram!&nbsp; &lt;/<span class="blue">h1</span>&gt;
-        <br>
-        <br>
+        <div class="center-box">
+            <h4 class="ending">
+                &lt;<span class="blue">h1</span>&gt; My Passion! &lt;/<span class="blue">h1</span>&gt; <br> <br>
+                &lt;<span class="blue">h1</span>&gt; I am passionate about merging art and technology, aiming to 
+                enhance digital artists' workflows using AI. <br> <br>
+                
+                I am seeking an internship to apply my skills, bridge 
+                people with cutting-edge tech, and advance my career.&nbsp;&lt;/<span class="blue">h1</span>&gt;
+                <br>
+                <br>
+                <br>
 
-            <a href="https://www.linkedin.com/in/abdul-nafay-saleem-a9b0b528a" class="hero-button">&lt; LinkedIn /&gt;</a>
-            <a href="https://instagram.com/nafay3d" class="hero-button">&lt; Instagram /&gt;</a>
-            <a href="https://instagram.com/nafay3d" class="hero-button">&lt; Resume /&gt;</a>
+                &lt;<span class="blue">h1</span>&gt; Some links: &lt;/<span class="blue">h1</span>&gt;  
+            </h4>
+            
+            <div class="contact-btns">
+                <a href="https://www.linkedin.com/in/abdul-nafay-saleem-a9b0b528a" class="hero-button">&lt; LinkedIn /&gt;</a>
+                <a href="https://instagram.com/nafay3d" class="hero-button">&lt; Instagram /&gt;</a>
+                <a href="https://drive.google.com/file/d/1fZMPqJnwkvVA8DRoNqZ88nIxZETy6UO7/view?usp=sharing" class="hero-button">&lt; Resume /&gt;</a>
+            </div>
         </div>
     </div>
 
