@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Reset some default styles */
 body, h1, h2, h3, p {
@@ -93,6 +94,8 @@ body {
     color: white;
 }
 
+
+
 /* Header styles */
 header {
     background-image: url('26668 1.png');
@@ -111,7 +114,7 @@ header {
     margin-right: auto;
 }
 
-.header-graphic {
+.header-graphic-main {
     max-width: 40vw;
     margin: 0;
     float: right;
@@ -120,9 +123,18 @@ header {
 
 
 
-.header-graphic {
+.header-graphic-main {
     margin-bottom: 0vh;
 }
+
+
+.header-graphic {
+    margin-bottom: 0vh;
+    height: 33rem;
+    width: auto;
+}
+
+
 
 
 h3 {
@@ -181,19 +193,19 @@ h4 {
 }
 
 .projects-title {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Archivo Black;
     font-weight: 400;
     text-align: center;
     font-size: 4rem;
-    padding: 15rem;
+    padding: 7rem;
 }
 
 .project-graphic {
-    max-width: 70vh;
+    max-width: 80vh;
 
 }
 
-.project {
+.project-1 {
     position: sticky;
     top: 10vh;
     display: flex;
@@ -201,11 +213,46 @@ h4 {
     align-items: center;
     margin: 5rem;
     border-radius: 3rem;
-    padding: 5rem 5rem;
+    padding: 7rem 5rem;
     margin-bottom: 12rem;
-    background-image: url('5929791 1 (1).png');
+    background-image: url('bg2608228 1.png');
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: auto;
+}
+
+.essay-1 {
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('image 2 (2).png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.project-2 {
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('27303 1.png');
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+    overflow: auto;
+}
+
+.project-title-yt {
+    font-size: 3rem;
 }
 
 .project-yt {
@@ -274,7 +321,7 @@ h4 {
 
 .proj-button {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
     border: 2px solid #ffffff;
     background-color: transparent;
@@ -309,15 +356,151 @@ h4 {
 
 
 
+/* Wrapper for centering the text */
+.wrapper {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: -10vh; /* Adjust to fit within your layout */
+  }
+  
+  /* Typing demo styles */
+  .typing-demo {
+    width: 40ch; /* Adjust width according to your text */
+    animation: typing 4s steps(40), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid white; /* Adjust color for contrast */
+    font-family: monospace;
+    font-size: 2rem;
+    color: white;
+    margin-top: -10vh; /* Adjust to fit within your layout */
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+
+
+/* Add padding to the whole page */
+.essay-section {
+    display: flex;               /* Use flexbox */
+    flex-direction: column;      /* Stack children vertically */
+    align-items: center;         /* Center horizontally */
+    justify-content: center;     /* Center vertically */
+    padding: 10rem 0;         /* Add extra top padding to prevent overlap with the navbar */
+    height: 100vh;               /* Make the section take full viewport height */
+    text-align: center;          /* Center text inside the section */
+}
+
+
+.essay-title {
+    font-family: Archivo Black;
+
+    font-size: 4rem; /* Reduced font size for the title */
+    margin: 2rem 0rem;
+}
+
+/* Style for the individual essay items */
+.essay-item-1 {
+    position: relative; /* Set position to relative for absolute positioning of pseudo-element */
+    width: 100%;
+    max-width: 50vw; /* Limit the width of each essay item */
+    padding: 4.5rem 7rem; /* Add padding inside each essay item */
+    background-image: url("image (5).png"); /* Background image for essay items */
+    background-size: cover;
+    color: white;
+    text-align: left;
+    border-radius: 2rem; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin: 3rem 0; /* Adds space between essay items */
+    overflow: hidden; /* Ensures the overlay doesn't affect the layout */
+    
+}
+
+.essay-item-2 {
+    position: relative; /* Set position to relative for absolute positioning of pseudo-element */
+    width: 100%;
+    max-width: 50vw; /* Limit the width of each essay item */
+    padding: 4.5rem 7rem; /* Add padding inside each essay item */
+    background-image: url("image (6).png"); /* Background image for essay items */
+    background-size: cover;
+    color: white;
+    text-align: left;
+    border-radius: 2rem; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin: 3rem 0; /* Adds space between essay items */
+    overflow: hidden; /* Ensures the overlay doesn't affect the layout */
+}
+
+
+.essay-item-title {
+    font-family: Archivo;
+    margin: 0rem;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.essay-item-p {
+    margin: 2rem 0;
+    color: #ffffff;
+}
+
+
+
+/* Hover effect for essay items */
+.essay-item-1:hover { /* Darker background on hover */
+    box-shadow: 0 20px 80px rgba(216, 216, 216, 0.1); /* Adds a subtle shadow */
+    transition: box-shadow 0.2s ease;
+}
+
+/* Centering the essay list and giving it some vertical spacing */
+.essay-list {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem; /* Adds space between the essay items */
+    margin: 0;
+    width: 70vw;
+}
 
 
 
 
 
+a {
+    text-decoration: none;
+    color: white; /* Set nav links to white */
+}
+
+nav a:hover {
+    color: #bababa; /* Optional: Add hover color for better UX */
+}
 
 
 
 
+.contact-me {
+
+    font-family: Archivo Black;
+    font-size: 4rem;
+}
 
 
 
@@ -333,3 +516,4 @@ h4 {
   }
 
   
+
