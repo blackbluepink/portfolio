@@ -205,6 +205,11 @@ h4 {
 
 }
 
+.project-graphic-2 {
+    max-width: 50vh;
+
+}
+
 .project-1 {
     position: sticky;
     top: 10vh;
@@ -221,7 +226,7 @@ h4 {
 }
 
 .essay-1 {
-    position: sticky;
+    
     top: 10vh;
     display: flex;
     justify-content: space-between;
@@ -234,6 +239,38 @@ h4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: auto;
 }
+
+.essay-2 {
+    
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('burns-road-food-street-karachi 1.png');
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.essay-3 {
+    
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 3rem;
+    padding: 7rem 5rem;
+    margin-bottom: 12rem;
+    background-image: url('image 3 (1).png');
+ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
 
 .project-2 {
     position: sticky;
